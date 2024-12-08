@@ -1,3 +1,15 @@
+const lattary = new Promise(function (resolve, reject) {
+  setTimeout(function () {
+    if (Math.random() >= 0.5) {
+      resolve("you are win latary ");
+    } else {
+      reject(new Error("you are lost this time!!!!!"));
+    }
+  }, 2000);
+});
+
+lattary.then((res) => console.log(res)).catch((err) => console.log(err));
+
 // write this code with promise .then() and .catch()
 
 const whereAmI = function (lat, lng) {
