@@ -20,4 +20,3 @@ function insertionSort(arr) {
 
 // آزمایش تابع با یک آرایه نمونه
 console.log(insertionSort([-2, -90, 78, 2, 4, 56]));
-
